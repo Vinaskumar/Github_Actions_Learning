@@ -1,10 +1,18 @@
 name: First Workflow
 
+<<<<<<< HEAD
 on:  
   workflow_dispatch:
   issues:
     types: [opened]
     
+=======
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened]
+
+>>>>>>> c11e7fe69872c78b40fb0a72d4288333409e057f
 jobs:
   job1:
     runs-on: ubuntu-latest
@@ -24,5 +32,8 @@ jobs:
       with:
         text: "Ready for prod--ship it!"
         color: "magenta"
+<<<<<<< HEAD
           
       
+=======
+>>>>>>> c11e7fe69872c78b40fb0a72d4288333409e057f
